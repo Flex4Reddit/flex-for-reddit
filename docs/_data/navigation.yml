@@ -1,0 +1,7 @@
+docs:
+  - title: Getting Started
+    children:
+      - title: "Flex for Reddit"
+        url: /
+      - title: "Structure"
+        url: /theme/color-picker

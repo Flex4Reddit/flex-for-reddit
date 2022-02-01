@@ -1,0 +1,26 @@
+themes:
+  - alt: Flex Dark
+    path: theme_flex_dark.png
+  - alt: Roboticket
+    path: theme_roboticket.png
+  - alt: RecognEyes
+    path: theme_recogneyes.png 
+  - alt: Solarized Light
+    path: theme_solarized_light.png
+
+layouts:
+  - alt: Move the image to the left
+    path: layout_left_img.png
+  - alt: Make the image bigger
+    path: layout_big_img.png
+  - alt: Move the image to the top
+    path: layout_top_img.png
+  - alt: Move the image to the bottom
+    path: layout_bot_img.png
+
+matrix:
+  - alt: r/matrix subreddit
+    path: matrix_subreddit.png
+  - alt: r/matrix post
+    path: matrix_post.png
+  
