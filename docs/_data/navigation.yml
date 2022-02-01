@@ -1,7 +1,9 @@
 docs:
-  - title: Getting Started
+  - title: Flex for Reddit
     children:
-      - title: "Flex for Reddit"
+      - title: "Introduction"
         url: /
-      - title: "Structure"
-        url: /theme/color-picker
+  - title: Customize Theme
+    children:
+      - title: "Theme Overview"
+        url: /theme/theme-overview
