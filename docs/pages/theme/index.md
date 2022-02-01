@@ -8,6 +8,6 @@ permalink: /theme
 
 # Customize Theme
 
-
+hello
 
 ## Duplicate an Existing Theme
