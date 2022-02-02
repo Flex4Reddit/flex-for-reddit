@@ -1,7 +1,7 @@
 docs:
-  - title: Flex for Reddit
+  - title: Hello There 👋
     children:
-      - title: "Hello There 👋"
+      - title: Flex for Reddit
         url: /
   - title: Theme Customization
     children:

@@ -58,4 +58,4 @@ Interested to give it a go? Flex for Reddit is available on Google Play.
 
 Learn more about Flex's theme & layout editing system.
 
-[Theme Editor Guide]({{ "/theme/theme-overview" | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Theme Customization Guide]({% link pages/theme/theme-system.md %}){: .btn .btn--info}
