@@ -45,7 +45,7 @@ The new theme's name & description can be changed to your liking.
 {% assign items = site.data.theme.rename %}
 {% for item in items -%}
 {% assign src = item.path | prepend: "/assets/images/" %}
-[![{{item.alt}}]({{src}})]({{src}})
+[![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
 {%- endfor %}
 {:.text-center}
 

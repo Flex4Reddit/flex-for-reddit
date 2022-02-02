@@ -7,10 +7,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-img {
-    width: 24%;
-}
-
 .w-auto{
     width: auto;
 }
@@ -32,10 +28,6 @@ img {
 }
 
 @media screen and (max-width: 512px) {
-
-    img {
-        width: 49%;
-    }
 
     .w-50 {
         width: auto;
