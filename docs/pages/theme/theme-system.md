@@ -21,7 +21,7 @@ For example, the action bar uses the _Primary_ color for its background. Since t
 
 You can read more about On Colors on [Material Design][1].
 
-{% assign src="theme_color_names.png" | prepend: "/assets/images/" %}
+{% assign src="theme_color_names.png" | prepend: "/assets/images/" | relative_url %}
 [![On Colors]({{src}}){:.w-auto}]({{src}})
 {:.text-center}
 
