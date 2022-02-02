@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+img {
+    width: 24%;
+}
+
+.w-50 {
+    width: 49%;
+}
+
+.gallery {
+    width: 24%;
+}
+
+.gallery-2 {
+    width: 24%;
+}
+
+.gallery-4 {
+    width: 24%;
+}
+
+@media screen and (max-width: 512px) {
+
+    img {
+        width: 49%;
+    }
+
+    .w-50 {
+        width: auto;
+    }
+    .gallery {
+        width: 49%;
+    }
+
+    .gallery-2 {
+        width: 49%;
+    }
+
+    .gallery-4 {
+        width: 49%;
+    }
+}

@@ -1,9 +1,13 @@
 docs:
   - title: Flex for Reddit
     children:
-      - title: "Introduction"
+      - title: "Hello There 👋"
         url: /
-  - title: Customize Theme
+  - title: Theme Customization
     children:
-      - title: "Theme Overview"
-        url: /theme/theme-overview
+      - title: "Flex Theme System"
+        url: /theme/theme-system
+      - title: "Create a New Theme"
+        url: /theme/create-theme
+      - title: "Theme Editor"
+        url: /theme/theme-editor

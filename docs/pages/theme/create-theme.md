@@ -3,6 +3,7 @@ title: Create a New Theme
 permalink: /theme/create-theme
 ---
 
+
 Go to the theme overview page, which displays all available themes stored on the device.
 
 1. Open the **Navigation Drawer**.

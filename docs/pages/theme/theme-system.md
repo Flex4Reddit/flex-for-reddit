@@ -1,7 +1,27 @@
 ---
-title: Create a New Theme
-permalink: /theme/create-theme
+title: Flex Theme System
+permalink: /theme/theme-system
 ---
+
+Flex's theme system allows users to customize colors in the app. Flex also allows customization of Reddit-specific colors such as upvote/downvote colors and moderator/admin colors.
+
+# _On_ Colors
+
+_On_ colors (_On-Primary_, _On-Secondary_, etc.) are typically used when content - such as text & icons - are overlaid on top of another color.
+
+
+For example, the action bar uses the _Primary_ color for its background. Since the hamburger menu and title is overlaid on top of the background, they are controlled by the _On-Primary_ color.
+
+<img src="/assets/images/theme_on_colors.png" alt="On Colors"/>
+{: .text-center}
+
+## Theme Properties
+
+| Name      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Primary      | Title       | Here's this   |
+| Primary-On-Background   | Text        | And more      |
+
 
 Go to the theme overview page, which displays all available themes stored on the device.
 
