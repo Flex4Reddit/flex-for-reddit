@@ -35,7 +35,7 @@ You can read more about Text Colors on [Material Design][2].
 
 Reddit colors are used to colorize content that is specific to Reddit, such as upvote/downvote colors, moderator/admin colors, NSFW/Spoiler colors, etc.
 
-Go to the [Theme Editor]({% link pages/theme/change-colors.md %}) in the app to see what type of content is supported.
+Go to the [Theme Editor]({{ "/theme/change-colors" | relative_url }}) in the app to see what type of content is supported.
 
 
 [1]: https://material.io/design/color/the-color-system.html#color-theme-creation 

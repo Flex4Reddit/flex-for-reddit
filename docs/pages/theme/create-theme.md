@@ -11,11 +11,11 @@ Go to the theme overview page, which displays all available themes stored on the
 
 Themes can be categorized into **Flex Themes** and **User Themes**.
 
-### Flex Themes
+## Flex Themes
 
 Flex Themes are themes built into Flex by default and cannot be modified. They are the starting point of theme customization.
 
-### User Themes
+## User Themes
 
 User Themes are modifiable themes created by the user. They are stored locally on the device. If you use Clear Data on the app, all User Themes will be deleted.
 
