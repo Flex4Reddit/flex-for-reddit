@@ -9,5 +9,5 @@ docs:
         url: /theme/theme-system
       - title: "Create a New Theme"
         url: /theme/create-theme
-      - title: "Theme Editor"
-        url: /theme/theme-editor
+      - title: "Change Theme Colors"
+        url: /theme/change-colors
