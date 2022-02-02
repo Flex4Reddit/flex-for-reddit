@@ -19,8 +19,9 @@ Flex Themes are themes built into Flex by default and cannot be modified. They a
 
 User Themes are modifiable themes created by the user. They are stored locally on the device. If you use Clear Data on the app, all User Themes will be deleted.
 
-<img src="/assets/images/theme_overview.png" width="49%" alt="Theme Overview"/>
-{: .text-center}
+{% assign src="theme_overview.png" | prepend: "/assets/images/" %}
+[![Theme Overview]({{src}}){:.w-50}]({{src}})
+{:.text-center}
 
 ## Create a New Theme
 
@@ -30,7 +31,8 @@ To create a new theme,
 3. This will create a new User Theme. You may need to scroll to the top to see it.
 4. Click on the User Theme to begin customizing.
 
-<img src="/assets/images/theme_duplicate.png" width="49%" alt="Duplicate Theme"/>
+{% assign src="theme_duplicate.png" | prepend: "/assets/images/" %}
+[![Create New Theme]({{src}}){:.w-50}]({{src}})
 {:.text-center}
 
 ## Rename Theme & Description
@@ -40,7 +42,10 @@ The new theme's name & description can be changed to your liking.
 2. Then click on **Rename**.
 3. Click on the property you would like to change.
 
-<img src="/assets/images/theme_rename.png" width="49%" alt="Rename Menu"/>
-<img src="/assets/images/theme_rename_menu.png" width="49%" alt="Rename Options"/>
+{% assign items = site.data.theme.rename %}
+{% for item in items -%}
+{% assign src = item.path | prepend: "/assets/images/" %}
+[![{{item.alt}}]({{src}})]({{src}})
+{%- endfor %}
 {:.text-center}
 
