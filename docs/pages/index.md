@@ -13,7 +13,7 @@ Flex allows the complete customization of themes. From primary colors to text co
 
 {% assign items = site.data.index.themes %}
 {% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" %}
+{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
 [![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
 {%- endfor %}
 {:.text-center}
@@ -25,7 +25,7 @@ These layouts can all be achieved with Flex.
 
 {% assign items = site.data.index.layouts %}
 {% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" %}
+{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
 [![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
 {%- endfor %}
 {:.text-center}
@@ -34,7 +34,7 @@ These layouts can all be achieved with Flex.
 
 Flex provides a powerful editor that allows users to modify Android View properties directly. Be warned, the Android View system is complex, and long-term exposure to the Andorid View system may slowly turn you into a developer. The Guides & Tutorials here will help you navigate this perilous journey.
 
-{% assign src="layout_editor.png" | prepend: "/assets/images/" %}
+{% assign src="layout_editor.png" | prepend: "/assets/images/" | relative_url %}
 [![Layout Editor]({{src}}){:.gallery}]({{src}})
 {:.text-center}
 
@@ -42,7 +42,7 @@ Once you get the hang of it, you can create some pretty nitfy experiences. To ge
 
 {% assign items = site.data.index.matrix %}
 {% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" %}
+{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
 [![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
 {%- endfor %}
 {:.text-center}
@@ -58,4 +58,4 @@ Interested to give it a go? Flex for Reddit is available on Google Play.
 
 Learn more about Flex's theme & layout editing system.
 
-[Theme Customization Guide]({% link pages/theme/theme-system.md %}){: .btn .btn--info}
+[Theme Customization Guide]({{ "/theme/theme-system" | relative_url }}){: .btn .btn--info}

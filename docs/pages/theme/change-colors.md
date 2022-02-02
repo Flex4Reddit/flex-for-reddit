@@ -9,7 +9,7 @@ Once you're at **My Themes**, click on a **User Theme** to enter the editor and 
 
 You should see a list of theme colors. Material Design colors are at the top. Reddit colors are at the bottom.
 
-{% assign src="theme_editor.png" | prepend: "/assets/images/" %}
+{% assign src="theme_editor.png" | prepend: "/assets/images/" | relative_url %}
 [![Color Picker]({{src}}){:.w-50}]({{src}})
 {:.text-center}
 
@@ -17,7 +17,7 @@ You should see a list of theme colors. Material Design colors are at the top. Re
 
 Click on an item to bring up the color picker. You can change the color by using the color wheel, or type the ARGB hex code directly.
 
-{% assign src="theme_color_picker.png" | prepend: "/assets/images/" %}
+{% assign src="theme_color_picker.png" | prepend: "/assets/images/" | relative_url %}
 [![Color Picker]({{src}}){:.w-50}]({{src}})
 {:.text-center}
 
