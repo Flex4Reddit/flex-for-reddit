@@ -42,10 +42,4 @@ The new theme's name & description can be changed to your liking.
 2. Then click on **Rename**.
 3. Click on the property you would like to change.
 
-{% assign items = site.data.theme.rename %}
-{% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
-[![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
-{%- endfor %}
-{:.text-center}
-
+{% include gallery.md data = site.data.theme.rename %}

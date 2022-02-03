@@ -11,24 +11,14 @@ Flex for Reddit is an unofficial, highly customizable Android app for Reddit.
 
 Flex allows the complete customization of themes. From primary colors to text colors to upvote/downvote colors to Reddit moderator/admin colors. Everything is customizable.
 
-{% assign items = site.data.index.themes %}
-{% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
-[![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
-{%- endfor %}
-{:.text-center}
+{% include gallery.md data = site.data.index.themes %}
 
 ## Customizable Layouts
 
 What makes Flex stand out is the ability to customize post layout. A left-handed user may prefer to have images moved to the left side of the screen. A user with poor vision may prefer larger images.  
 These layouts can all be achieved with Flex.
 
-{% assign items = site.data.index.layouts %}
-{% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
-[![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
-{%- endfor %}
-{:.text-center}
+{% include gallery.md data = site.data.index.layouts %}
 
 ## Flex Customization Editor
 
@@ -40,12 +30,7 @@ Flex provides a powerful editor that allows users to modify Android View propert
 
 Once you get the hang of it, you can create some pretty nitfy experiences. To get an idea, head over to [r/matrix](https://old.reddit.com/r/matrix) in the app and check out the hacker-green theme based on its subreddit style.
 
-{% assign items = site.data.index.matrix %}
-{% for item in items -%}
-{% assign src = item.path | prepend: "/assets/images/" | relative_url %}
-[![{{item.alt}}]({{src}}){:.gallery-{{items.size}}}]({{src}})
-{%- endfor %}
-{:.text-center}
+{% include gallery.md data = site.data.index.matrix %}
 
 ## Give Flex for Reddit a whirl!
 
