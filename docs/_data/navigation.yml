@@ -11,3 +11,7 @@ docs:
         url: /theme/create-theme
       - title: "Change Theme Colors"
         url: /theme/change-colors
+  - title: Layout Customization
+    children:
+      - title: Create a New Layout
+        url: /layout/create-layout
