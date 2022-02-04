@@ -1,17 +1,79 @@
 docs:
-  - title: Hello There 👋
-    children:
-      - title: Flex for Reddit
-        url: /
+  - title: "Hello There 👋"
   - title: Theme Customization
     children:
-      - title: "Flex Theme System"
+      - title: Flex Theme System
         url: /theme/theme-system
-      - title: "Create a New Theme"
+      - title: Create a New Theme
         url: /theme/create-theme
-      - title: "Change Theme Colors"
+      - title: Change Theme Colors
         url: /theme/change-colors
   - title: Layout Customization
     children:
+      - title: Flex Layout System
+        url: /layout/layout-system
+      - title: Layout State
+        url: /layout/layout-state
       - title: Create a New Layout
         url: /layout/create-layout
+  - title: Layout Components
+    children:
+      - title: Text
+        url: /layout/components/text
+      - title: Text Span
+        url: /layout/components/text-span
+      - title: Image
+        url: /layout/components/image
+      - title: Linear
+        url: /layout/components/linear
+      - title: Flexbox
+        url: /layout/components/flexbox
+      - title: Card
+        url: /layout/components/card
+      - title: Award
+        url: /layout/components/award
+      - title: Media Preview
+        url: /layout/components/media-preview
+      - title: Markdown
+        url: /layout/components/markdown
+  - title: Layout Modifiers
+    children:
+      - title: View
+        url: /layout/modifiers/view
+      - title: Text
+        url: /layout/modifiers/text
+      - title: Image
+        url: /layout/modifiers/image
+      - title: Linear
+        url: /layout/modifiers/linear
+      - title: Flexbox
+        url: /layout/modifiers/flexbox
+      - title: Card
+        url: /layout/modifiers/card
+  - title: Layout States
+    url: /layout/layout-state
+    children:
+      - title: Default
+        url: /layout/states/default
+      - title: Is Reddit Admin
+        url: /layout/states/distinguished-admin
+      - title: Is Reddit Moderator
+        url: /layout/states/distinguished-mod
+      - title: Has Reddit Awards
+        url: /layout/states/has-awards
+      - title: NSFW
+        url: /layout/states/is-nsfw
+      - title: Spoiler
+        url: /layout/states/is-spoiler
+      - title: Has Link Flair
+        url: /layout/states/has-link-flair
+      - title: Has Thumbnail
+        url: /layout/states/has-thumbnail
+      - title: Has Thumbnail Image
+        url: /layout/states/has-thumbnail-image
+      - title: Has Media
+        url: /layout/states/has-media
+      - title: Upvoted by User
+        url: /layout/states/is-upvote
+      - title: Downvoted by User
+        url: /layout/states/is-downvote
