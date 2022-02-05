@@ -1,17 +1,14 @@
 docs:
-  - title: "Hello There 👋"
-  - title: Theme Customization
+  - title: "Flex Theme System 🎨"
+    url: /theme/theme-system
     children:
-      - title: Flex Theme System
-        url: /theme/theme-system
       - title: Create a New Theme
         url: /theme/create-theme
       - title: Change Theme Colors
         url: /theme/change-colors
-  - title: Layout Customization
+  - title: "Flex Layout System 🏗️"
+    url: /layout/layout-system
     children:
-      - title: Flex Layout System
-        url: /layout/layout-system
       - title: Layout State
         url: /layout/layout-state
       - title: Create a New Layout

@@ -28,33 +28,7 @@ reddit_components:
     - name: Award
     - name: Media Preview
     - name: Markdown
-
-flex_states:
-    - title: Default
-      url: /layout/states/default
-    - title: Is Reddit Admin
-      url: /layout/states/distinguished-admin
-    - title: Is Reddit Moderator
-      url: /layout/states/distinguished-mod
-    - title: Has Awards
-      url: /layout/states/has-awards
-    - title: NSFW
-      url: /layout/states/is-nsfw
-    - title: Spoiler
-      url: /layout/states/is-spoiler
-    - title: Has Link Flair
-      url: /layout/states/has-link-flair
-    - title: Has Thumbnail
-      url: /layout/states/has-thumbnail
-    - title: Has Thumbnail Image
-      url: /layout/states/has-thumbnail-image
-    - title: Has Media
-      url: /layout/states/has-media
-    - title: Upvoted by User
-      url: /layout/states/is-upvote
-    - title: Downvoted by User
-      url: /layout/states/is-downvote
-      
+     
 ---
 
 Flex's layout system allows users to customize the display of content. You can adjust the shape and size of any content, as well as the position of content.
@@ -119,10 +93,4 @@ States can be used to show or hide spoiler tags, change the style of the author 
 [![Flex States]({{src}}){:.w-66}]({{src}})
 {:.text-center}
 
-Click on a state for more details.
-
-| State |
-|---|
-{%- for item in page.flex_states %}
-| {{item.name}} Component |
-{%- endfor %}
+Read more about [Default & Condition States](layout-state)
