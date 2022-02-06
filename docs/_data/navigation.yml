@@ -1,4 +1,9 @@
 docs:
+  - title: "Flex for Reddit"
+    url: /
+    children:
+      - title: Enroll in Closed Alpha
+        url: /closed-alpha
   - title: "Flex Theme System 🎨"
     url: /theme/theme-system
     children:
